@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5147E2572BA9CBF400F3279D /* rangefinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147E2562BA9CBF400F3279D /* rangefinderApp.swift */; };
+		5147E2592BA9CBF400F3279D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147E2582BA9CBF400F3279D /* ContentView.swift */; };
+		5147E25B2BA9CBF500F3279D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5147E25A2BA9CBF500F3279D /* Assets.xcassets */; };
+		5147E25F2BA9CBF500F3279D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5147E25E2BA9CBF500F3279D /* Preview Assets.xcassets */; };
+		5147E2692BA9CBF500F3279D /* rangefinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147E2682BA9CBF500F3279D /* rangefinderTests.swift */; };
+		5147E2732BA9CBF500F3279D /* rangefinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147E2722BA9CBF500F3279D /* rangefinderUITests.swift */; };
+		5147E2752BA9CBF500F3279D /* rangefinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5147E2742BA9CBF500F3279D /* rangefinderUITestsLaunchTests.swift */; };
+		51C95B402BA9CE4100C8894B /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C95B3F2BA9CE4100C8894B /* ARViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5147E2652BA9CBF500F3279D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5147E24B2BA9CBF400F3279D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5147E2522BA9CBF400F3279D;
+			remoteInfo = rangefinder;
+		};
+		5147E26F2BA9CBF500F3279D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5147E24B2BA9CBF400F3279D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5147E2522BA9CBF400F3279D;
+			remoteInfo = rangefinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5147E2532BA9CBF400F3279D /* rangefinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rangefinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5147E2562BA9CBF400F3279D /* rangefinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangefinderApp.swift; sourceTree = "<group>"; };
+		5147E2582BA9CBF400F3279D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5147E25A2BA9CBF500F3279D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5147E25C2BA9CBF500F3279D /* rangefinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rangefinder.entitlements; sourceTree = "<group>"; };
+		5147E25E2BA9CBF500F3279D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5147E2642BA9CBF500F3279D /* rangefinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangefinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5147E2682BA9CBF500F3279D /* rangefinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangefinderTests.swift; sourceTree = "<group>"; };
+		5147E26E2BA9CBF500F3279D /* rangefinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rangefinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5147E2722BA9CBF500F3279D /* rangefinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangefinderUITests.swift; sourceTree = "<group>"; };
+		5147E2742BA9CBF500F3279D /* rangefinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rangefinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		51C95B3F2BA9CE4100C8894B /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5147E2502BA9CBF400F3279D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E2612BA9CBF500F3279D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E26B2BA9CBF500F3279D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5147E24A2BA9CBF400F3279D = {
+			isa = PBXGroup;
+			children = (
+				5147E2552BA9CBF400F3279D /* rangefinder */,
+				5147E2672BA9CBF500F3279D /* rangefinderTests */,
+				5147E2712BA9CBF500F3279D /* rangefinderUITests */,
+				5147E2542BA9CBF400F3279D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5147E2542BA9CBF400F3279D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5147E2532BA9CBF400F3279D /* rangefinder.app */,
+				5147E2642BA9CBF500F3279D /* rangefinderTests.xctest */,
+				5147E26E2BA9CBF500F3279D /* rangefinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5147E2552BA9CBF400F3279D /* rangefinder */ = {
+			isa = PBXGroup;
+			children = (
+				5147E2562BA9CBF400F3279D /* rangefinderApp.swift */,
+				5147E2582BA9CBF400F3279D /* ContentView.swift */,
+				5147E25A2BA9CBF500F3279D /* Assets.xcassets */,
+				5147E25C2BA9CBF500F3279D /* rangefinder.entitlements */,
+				5147E25D2BA9CBF500F3279D /* Preview Content */,
+				51C95B3F2BA9CE4100C8894B /* ARViewContainer.swift */,
+			);
+			path = rangefinder;
+			sourceTree = "<group>";
+		};
+		5147E25D2BA9CBF500F3279D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5147E25E2BA9CBF500F3279D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5147E2672BA9CBF500F3279D /* rangefinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5147E2682BA9CBF500F3279D /* rangefinderTests.swift */,
+			);
+			path = rangefinderTests;
+			sourceTree = "<group>";
+		};
+		5147E2712BA9CBF500F3279D /* rangefinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5147E2722BA9CBF500F3279D /* rangefinderUITests.swift */,
+				5147E2742BA9CBF500F3279D /* rangefinderUITestsLaunchTests.swift */,
+			);
+			path = rangefinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5147E2522BA9CBF400F3279D /* rangefinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5147E2782BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinder" */;
+			buildPhases = (
+				5147E24F2BA9CBF400F3279D /* Sources */,
+				5147E2502BA9CBF400F3279D /* Frameworks */,
+				5147E2512BA9CBF400F3279D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rangefinder;
+			productName = rangefinder;
+			productReference = 5147E2532BA9CBF400F3279D /* rangefinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5147E2632BA9CBF500F3279D /* rangefinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5147E27B2BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinderTests" */;
+			buildPhases = (
+				5147E2602BA9CBF500F3279D /* Sources */,
+				5147E2612BA9CBF500F3279D /* Frameworks */,
+				5147E2622BA9CBF500F3279D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5147E2662BA9CBF500F3279D /* PBXTargetDependency */,
+			);
+			name = rangefinderTests;
+			productName = rangefinderTests;
+			productReference = 5147E2642BA9CBF500F3279D /* rangefinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5147E26D2BA9CBF500F3279D /* rangefinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5147E27E2BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinderUITests" */;
+			buildPhases = (
+				5147E26A2BA9CBF500F3279D /* Sources */,
+				5147E26B2BA9CBF500F3279D /* Frameworks */,
+				5147E26C2BA9CBF500F3279D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5147E2702BA9CBF500F3279D /* PBXTargetDependency */,
+			);
+			name = rangefinderUITests;
+			productName = rangefinderUITests;
+			productReference = 5147E26E2BA9CBF500F3279D /* rangefinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5147E24B2BA9CBF400F3279D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5147E2522BA9CBF400F3279D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5147E2632BA9CBF500F3279D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5147E2522BA9CBF400F3279D;
+					};
+					5147E26D2BA9CBF500F3279D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5147E2522BA9CBF400F3279D;
+					};
+				};
+			};
+			buildConfigurationList = 5147E24E2BA9CBF400F3279D /* Build configuration list for PBXProject "rangefinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5147E24A2BA9CBF400F3279D;
+			productRefGroup = 5147E2542BA9CBF400F3279D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5147E2522BA9CBF400F3279D /* rangefinder */,
+				5147E2632BA9CBF500F3279D /* rangefinderTests */,
+				5147E26D2BA9CBF500F3279D /* rangefinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5147E2512BA9CBF400F3279D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147E25F2BA9CBF500F3279D /* Preview Assets.xcassets in Resources */,
+				5147E25B2BA9CBF500F3279D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E2622BA9CBF500F3279D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E26C2BA9CBF500F3279D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5147E24F2BA9CBF400F3279D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147E2592BA9CBF400F3279D /* ContentView.swift in Sources */,
+				5147E2572BA9CBF400F3279D /* rangefinderApp.swift in Sources */,
+				51C95B402BA9CE4100C8894B /* ARViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E2602BA9CBF500F3279D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147E2692BA9CBF500F3279D /* rangefinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5147E26A2BA9CBF500F3279D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5147E2752BA9CBF500F3279D /* rangefinderUITestsLaunchTests.swift in Sources */,
+				5147E2732BA9CBF500F3279D /* rangefinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5147E2662BA9CBF500F3279D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5147E2522BA9CBF400F3279D /* rangefinder */;
+			targetProxy = 5147E2652BA9CBF500F3279D /* PBXContainerItemProxy */;
+		};
+		5147E2702BA9CBF500F3279D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5147E2522BA9CBF400F3279D /* rangefinder */;
+			targetProxy = 5147E26F2BA9CBF500F3279D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5147E2762BA9CBF500F3279D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5147E2772BA9CBF500F3279D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5147E2792BA9CBF500F3279D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rangefinder/rangefinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rangefinder/Preview Content\"";
+				DEVELOPMENT_TEAM = S25FE93F38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "该应用程序使用相机通过 Li DAR 技术测量距离";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5147E27A2BA9CBF500F3279D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rangefinder/rangefinder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"rangefinder/Preview Content\"";
+				DEVELOPMENT_TEAM = S25FE93F38;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "该应用程序使用相机通过 Li DAR 技术测量距离";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5147E27C2BA9CBF500F3279D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25FE93F38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rangefinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rangefinder";
+			};
+			name = Debug;
+		};
+		5147E27D2BA9CBF500F3279D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25FE93F38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rangefinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rangefinder";
+			};
+			name = Release;
+		};
+		5147E27F2BA9CBF500F3279D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25FE93F38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rangefinder;
+			};
+			name = Debug;
+		};
+		5147E2802BA9CBF500F3279D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S25FE93F38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.skyjerry.rangefinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = rangefinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5147E24E2BA9CBF400F3279D /* Build configuration list for PBXProject "rangefinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147E2762BA9CBF500F3279D /* Debug */,
+				5147E2772BA9CBF500F3279D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5147E2782BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147E2792BA9CBF500F3279D /* Debug */,
+				5147E27A2BA9CBF500F3279D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5147E27B2BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147E27C2BA9CBF500F3279D /* Debug */,
+				5147E27D2BA9CBF500F3279D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5147E27E2BA9CBF500F3279D /* Build configuration list for PBXNativeTarget "rangefinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147E27F2BA9CBF500F3279D /* Debug */,
+				5147E2802BA9CBF500F3279D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5147E24B2BA9CBF400F3279D /* Project object */;
+}
